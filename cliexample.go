@@ -21,7 +21,7 @@ func main() {
 	fmt.Println("Given number has value:", *number)
 
 	/*
-		// this prints args after the '--'
+		// this prints args after the '--' or any non '-' arg
 		go run .\cliexample.go -number 8 -- test
 		Given number has value: 8
 		Args():  [test]
